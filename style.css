@@ -1,5 +1,31 @@
+body {
+  background-image: url('imgs/memesWallpaper.jpg');
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 input {
-  margin: 5px;
+  margin: 0 0 20px 0;
 }
 
 button {
@@ -56,4 +82,8 @@ button {
 
 .footer {
   display: inline-flex;
+}
+
+section button {
+  color: black;
 }
